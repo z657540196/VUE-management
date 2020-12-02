@@ -50,6 +50,7 @@ export default {
   methods:{
     addCustomer(e){
       //console.log('1111')
+//  判断 用户信息是否为  true,
       if(!this.customer.name || !this.customer.phone || !this.customer.email){
           alert('请添加对应的信息')
       }else{
